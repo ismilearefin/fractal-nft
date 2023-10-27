@@ -1,0 +1,66 @@
+.BackStoryBox{
+    padding: 0px 188px;;
+}
+.textStory > p{
+    color: white;
+    font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding-top: 10px;
+}
+
+.largeCircle{
+    margin: 25px;
+    border: 1px solid #fff;
+    min-height: 100%;
+    border-radius: 50%;
+    max-width: 100%;
+    
+
+}
+
+h1 > span {
+    /* font-size: 26px ; */
+    height: 320px;
+    position: absolute;
+    width: 20px;
+    left: 50%;
+    top:0;
+    transform-origin: bottom center;
+    color: white;
+    
+  }
+  .rotateH1{
+    position: absolute;
+    top: 10px;
+    right: 350px;
+  }
+
+.char1 { transform: rotate(300deg); }
+.char2 { transform: rotate(307deg); }
+.char3 { transform: rotate(317deg); }
+.char4 { transform: rotate(327deg); }
+.char5 { transform: rotate(-25deg); }
+.char6 { transform: rotate(-18deg); }
+.char7 { transform: rotate(-7deg); }
+.char8 { transform: rotate(0deg); }
+.char9 { transform: rotate(5deg); }
+.char10 { transform: rotate(14deg); }
+.char11 { transform: rotate(24deg); }
+.char12 { transform: rotate(33deg); }
+.char13 { transform: rotate(42deg); }
+.char14 { transform: rotate(47deg); }
+.char15 { transform: rotate(54deg); }
+.char16 { transform: rotate(60deg); }
+.char17 { transform: rotate(70deg); }
+.char18 { transform: rotate(78deg); }
+
+.smallCircle{
+    
+    margin: 25px;
+    border: 1px solid #fff;
+    height: 65%;
+    border-radius: 50%;
+    min-width: 65%;
+}
