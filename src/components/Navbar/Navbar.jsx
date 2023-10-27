@@ -3,6 +3,7 @@ import logo from "../../../public/Logo.svg";
 import hoverEffect from "../../../public/menuHoverEffect.svg";
 import IconComponent from "../IconComponent/IconComponent";
 import {  BiLogoFacebook,BiLogoTelegram,BiLogoTwitter } from "react-icons/bi";
+import {  GiSailboat } from "react-icons/gi";
 // import { FaSailboat } from "react-icons/fa";
 
 const menuItems = [
@@ -56,7 +57,7 @@ export default function Navbar() {
         </div>
         <div className="col-sm-4 d-flex justify-content-start align-self-center">
           
-          {/* <IconComponent fill={'black'} icon={<FaSailboat/>}></IconComponent> */}
+          <IconComponent fill={'black'} icon={<GiSailboat/>}></IconComponent>
           <IconComponent fill={'black'} icon={<BiLogoTwitter/>}></IconComponent>
           <IconComponent fill={'black'} icon={<BiLogoTelegram/>}></IconComponent>
           <IconComponent fill={'black'} icon={<BiLogoFacebook/>}></IconComponent>

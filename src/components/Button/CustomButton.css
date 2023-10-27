@@ -1,0 +1,20 @@
+div > svg {
+    top:-10px;
+    left:-10px;
+    cursor: pointer;
+}
+
+
+.buttonIcon > p{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 10px;
+    margin-top: 10px;
+    
+}
+.buttonIcon{
+    bottom: 20px;
+    left: -10px;
+}

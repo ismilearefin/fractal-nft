@@ -1,0 +1,47 @@
+.textBox{
+    width: 740px;
+    text-align:start;
+    margin-top: 130px;
+}
+
+.textBox > h1{
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-bottom: 46px;
+}
+.textBox > p{
+    font-size: 25px;
+    font-style: normal;    
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 46px;
+}
+
+.textBox>div{
+    padding-bottom: 46px;
+}
+.iconColor{
+    color:#3B629C;
+}
+
+.imageBox{
+    width: 750.547px;
+   height: 206.148px;
+    background: linear-gradient(180deg, rgba(0, 102, 255, 0.00) 0%, rgba(0, 102, 255, 0.50) 100%);
+}
+
+.backGroundShadow{
+    top: 410px;
+    /* left:70px; */
+}
+
+.heroImg1{
+    top: 50px;
+    left: -70px;
+}
+.heroImg2{
+    top: 70px;
+    left: 200px;
+}
