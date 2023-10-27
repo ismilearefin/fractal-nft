@@ -8,7 +8,7 @@ export default function HeroSection() {
   return (
     <div className="text-white row justify-content-center border-bottom">
         <div className="col d-flex justify-content-end ">
-            <div className="textBox text-uppercase">
+            <div className="textBox ">
                 <h1>1000 Unique Fractals are<br/> ready to launch</h1>
                 <p>Manipulation Of The Physical</p>
                 <div>
@@ -22,8 +22,8 @@ export default function HeroSection() {
         <div className=" position-relative mt-5">
             <div className='imageBox position-absolute z-2 backGroundShadow'>
             </div>
-            <img src={fractal1} alt='Hero1' className='position-absolute z-1 heroImg1'></img>
-            <img src={fractal4} alt='Hero4' className='position-absolute z-0 heroImg2'></img>
+            <img src={fractal1} alt='Hero1' className='position-absolute z-1 img-fluid heroImg1'></img>
+            <img src={fractal4} alt='Hero4' className='position-absolute z-0 img-fluid heroImg2'></img>
         </div>
         </div>
     </div>

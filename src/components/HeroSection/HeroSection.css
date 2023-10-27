@@ -5,10 +5,6 @@
 }
 
 .textBox > h1{
-    font-size: 65px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
     padding-bottom: 46px;
 }
 .textBox > p{
@@ -17,6 +13,7 @@
     font-weight: 700;
     line-height: normal;
     padding-bottom: 46px;
+    text-transform: uppercase;
 }
 
 .textBox>div{
@@ -27,8 +24,8 @@
 }
 
 .imageBox{
-    width: 750.547px;
-   height: 206.148px;
+    width: 750px;
+   height: 206px;
     background: linear-gradient(180deg, rgba(0, 102, 255, 0.00) 0%, rgba(0, 102, 255, 0.50) 100%);
 }
 
