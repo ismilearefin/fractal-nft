@@ -1,12 +1,13 @@
 import "../BackStory/BackStory.css";
 import Fractals2 from "../../../public/Fractals2.svg";
-// import largeCircle from "../../../public/largeCircle.svg";
+import Group5 from "../../../public/Group5.svg";
 
 export default function BackStory() {
   return (
     <div className="BackStoryBox border-bottom row overflow-hidden">
-      <div className="col border-start border-end p-5">
-        <h1>Back Story</h1>
+        {/* Text Section */}
+      <div className="col border-start border-end p-5 ">
+        <h1 className="mt-5">Back Story</h1>
         <div className="textStory">
           <p>
             In this futuristic dystopian world, the characters are designed with
@@ -37,34 +38,13 @@ export default function BackStory() {
           </p>
         </div>
       </div>
-      <div className="col text-white border-end text-center">
-        <div className="largeCircle position-relative d-flex justify-content-center align-items-center">
-        <h1 className="rotateH1">
-          <span className="char1">f</span>
-          <span className="char2">r</span>
-          <span className="char3">a</span>
-          <span className="char4">c</span>
-          <span className="char5">t</span>
-          <span className="char6">a</span>
-          <span className="char7">l</span>
-          <span className="char8"> </span>
-          <span className="char9">b</span>
-          <span className="char10">a</span>
-          <span className="char11">c</span>
-          <span className="char12">k</span>
-          <span className="char13"> </span>
-          <span className="char14">s</span>
-          <span className="char15">t</span>
-          <span className="char16">o</span>
-          <span className="char17">r</span>
-          <span className="char18">y</span>
-          {/* <span className="char1"></span> */}
-          {/* fractal back story */}
-        </h1>
-        <div className="smallCircle position-absolute ">
-        </div>
-        <img src={Fractals2} alt="hero2" className="position-absolute"></img>
-        </div>
+
+      {/* Image Section */}
+      <div className="col text-white border-end">
+       <div className="position-relative">
+      <img src={Group5} alt="Group" className="groupImg"></img>
+       <img src={Fractals2} alt="hero2" className="position-absolute BcakStoryheroImg"></img>
+       </div>
       </div>
     </div>
   )

@@ -1,0 +1,37 @@
+.RoadMapBox {
+  padding: 100px 188px;
+}
+
+.largeCircleRoadMap {
+  border: 1px solid #fff;
+  min-height: 650px;
+  border-radius: 50%;
+  width: 650px;
+}
+.future1Svg {
+  top: 35%;
+  left: 55%;
+}
+.future2 {
+  position: relative;
+  top: -10%;
+  margin-left: 35px;
+}
+.rotateH1RoadMap {
+  position: absolute;
+  top: 15px;
+  right: 310px;
+}
+
+.hero5 {
+  top: -12%;
+  right: -25%;
+}
+.smallCircleRoadMap {
+  top: 18%;
+  left: 17%;
+  border: 1px solid #fff;
+  height: 65%;
+  border-radius: 50%;
+  min-width: 65%;
+}

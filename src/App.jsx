@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar/Navbar";
 import HeroSection from "./components/HeroSection/HeroSection";
 import Fractal from "./components/FractalSection/Fractal";
 import BackStory from "./components/BackStory/BackStory";
+import RoadMap from "./components/RoadMap/RoadMap";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <HeroSection></HeroSection>
         <Fractal></Fractal>
         <BackStory></BackStory>
+        <RoadMap> </RoadMap>
       </div>
       </div>
     </div>

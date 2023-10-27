@@ -19,7 +19,7 @@ const data = [
 
 export default function Fractal() {
   return (
-    <div className="d-flex gap-5 justify-content-evenly border-bottom ">
+    <div className="d-flex gap-5 justify-content-evenly border-bottom py-5">
       {
         data.map(item=>(
             <div key={item.id} className="text-white d-flex align-items-center gap-4">
