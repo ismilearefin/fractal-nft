@@ -1,0 +1,10 @@
+.background-image {
+  background-image: url('/background.svg');
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+.customWidth{
+  max-width: 1920px;
+  min-height: 100vh;
+}

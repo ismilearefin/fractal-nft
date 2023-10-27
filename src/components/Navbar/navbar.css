@@ -1,0 +1,38 @@
+.customPadding {
+  padding: 0px 188px;
+}
+
+.imageWidth {
+  width: 175px;
+  height: 175px;
+}
+
+.paddingMenu {
+  padding: 45px 0px;
+  
+}
+
+.backgroundImg {
+  background-image: url("/menuHoverEffect.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  top: -10px;
+  left: -10px;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.text-container{
+    display: grid;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.text-container:hover .backgroundImg {
+  opacity: 1;
+}

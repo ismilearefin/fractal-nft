@@ -1,0 +1,10 @@
+.icon{
+    font-size: 25px;
+    right: 10px;
+}
+.iconDiv{
+    width: fit-content;
+    text-decoration: none;
+    color: white;
+    margin-left: 25px;
+}
