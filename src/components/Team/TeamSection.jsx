@@ -11,8 +11,8 @@ export default function TeamSection() {
         <div className="row">
             <div className="col p-5 border-end">
                 <div className=' d-flex justify-content-end'>
-                    <div className='border p-3 text-center'>
-                    <img src={founder} alt='founder'></img>
+                    <div className='border p-4 text-center'>
+                    <img src={founder} alt='founder' className='img-fluid'></img>
                     <h2>founder</h2>
                     <p className='cardText'>OTC Trader</p>
                     </div>
@@ -20,8 +20,8 @@ export default function TeamSection() {
             </div>
             <div className="col p-5">
                 <div className=' d-flex justify-content-start'>
-                <div className='border p-3 text-center'>
-                <img src={coFounder} alt='coFounder'></img>
+                <div className='border p-4 text-center'>
+                <img src={coFounder} alt='coFounder' className='img-fluid'></img>
                 <h2>Co-founder</h2>
                     <p className='cardText'>Habstracticus</p>
                 </div>

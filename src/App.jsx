@@ -6,6 +6,7 @@ import Fractal from "./components/FractalSection/Fractal";
 import BackStory from "./components/BackStory/BackStory";
 import RoadMap from "./components/RoadMap/RoadMap";
 import TeamSection from "./components/Team/TeamSection";
+import FAQ from "./components/FAQ/FAQ";
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <BackStory></BackStory>
         <RoadMap> </RoadMap>
         <TeamSection></TeamSection>
+        <FAQ></FAQ>
       </div>
       </div>
     </div>

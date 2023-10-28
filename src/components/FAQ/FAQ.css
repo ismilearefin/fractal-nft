@@ -1,0 +1,23 @@
+.FAQ{
+    padding: 100px 50px 50px 50px;
+}
+.buttonText,p {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+}
+.FAQmainDiv{
+    padding-top: 180px;
+}
+.FAQSection{
+    padding: 100px 200px;
+    
+}
+
+.FAQSectionFlexBox{
+    gap: 60px;
+    flex-wrap: wrap;
+    
+}
