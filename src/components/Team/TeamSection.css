@@ -1,0 +1,11 @@
+.cardText{
+    font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize;
+}
+
+h2{
+    margin-top: 15px;
+}

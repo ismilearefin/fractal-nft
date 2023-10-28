@@ -5,6 +5,7 @@ import HeroSection from "./components/HeroSection/HeroSection";
 import Fractal from "./components/FractalSection/Fractal";
 import BackStory from "./components/BackStory/BackStory";
 import RoadMap from "./components/RoadMap/RoadMap";
+import TeamSection from "./components/Team/TeamSection";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Fractal></Fractal>
         <BackStory></BackStory>
         <RoadMap> </RoadMap>
+        <TeamSection></TeamSection>
       </div>
       </div>
     </div>
