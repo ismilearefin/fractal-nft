@@ -4,9 +4,9 @@ import Group5 from "../../../public/Group5.svg";
 
 export default function BackStory() {
   return (
-    <div className="BackStoryBox border-bottom row overflow-hidden">
+    <div className="BackStoryBox border-bottom  d-flex flex-column-reverse flex-md-row overflow-hidden mt-5 mt-sm-0">
         {/* Text Section */}
-      <div className="col border-start border-end p-5 ">
+      <div className="col border-start border-end p-2 p-md-5 ">
         <h1 className="mt-5">Back Story</h1>
         <div className="textStory">
           <p>
@@ -40,7 +40,7 @@ export default function BackStory() {
       </div>
 
       {/* Image Section */}
-      <div className="col text-white border-end">
+      <div className="col text-white border-end ">
        <div className="position-relative">
       <img src={Group5} alt="Group" className="groupImg"></img>
        <img src={Fractals2} alt="hero2" className="position-absolute BcakStoryheroImg"></img>

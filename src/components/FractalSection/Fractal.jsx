@@ -39,7 +39,7 @@ export default function Fractal() {
       </div>
         ))
       }
-      <div className="text-center text-white d-flex align-items-center justify-content-center gap-4">
+      <div className="d-block d-sm-none text-center text-white d-flex align-items-center justify-content-center gap-4">
             <svg
         xmlns="http://www.w3.org/2000/svg"
         width="47"

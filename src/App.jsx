@@ -3,7 +3,7 @@ import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
 import HeroSection from "./components/HeroSection/HeroSection";
 import Fractal from "./components/FractalSection/Fractal";
-// import BackStory from "./components/BackStory/BackStory";
+import BackStory from "./components/BackStory/BackStory";
 // import RoadMap from "./components/RoadMap/RoadMap";
 // import TeamSection from "./components/Team/TeamSection";
 // import FAQ from "./components/FAQ/FAQ";
@@ -18,7 +18,7 @@ function App() {
         <Navbar></Navbar>
         <HeroSection></HeroSection>
         <Fractal></Fractal>
-        {/* <BackStory></BackStory> */}
+        <BackStory></BackStory>
         {/* <RoadMap> </RoadMap> */}
         {/* <TeamSection></TeamSection> */}
         {/* <FAQ></FAQ> */}

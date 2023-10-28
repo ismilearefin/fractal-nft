@@ -9,6 +9,7 @@
     right: 16%;
     top: 28%;
     width: 520px;
+    
 }
 .textStory > p {
     color: white;
@@ -20,3 +21,23 @@
   }
   
 
+  @media screen and (max-width:450px ){
+    .BackStoryBox {
+      padding: 0px 0px;
+    }
+    .BackStoryBox > div{
+      margin: 5px;
+      border-top: 1px solid #fff;
+    }
+    .groupImg{
+      width: 100%;
+      overflow: hidden;
+  }
+  .BcakStoryheroImg{
+      right: 16%;
+      top: 28%;
+      width: 70%;
+      
+  }
+
+  }
