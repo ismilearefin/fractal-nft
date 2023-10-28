@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar/Navbar";
 import HeroSection from "./components/HeroSection/HeroSection";
 import Fractal from "./components/FractalSection/Fractal";
 import BackStory from "./components/BackStory/BackStory";
-// import RoadMap from "./components/RoadMap/RoadMap";
+import RoadMap from "./components/RoadMap/RoadMap";
 // import TeamSection from "./components/Team/TeamSection";
 // import FAQ from "./components/FAQ/FAQ";
 // import Footer from "./components/Footer/Footer";
@@ -19,7 +19,7 @@ function App() {
         <HeroSection></HeroSection>
         <Fractal></Fractal>
         <BackStory></BackStory>
-        {/* <RoadMap> </RoadMap> */}
+        <RoadMap> </RoadMap>
         {/* <TeamSection></TeamSection> */}
         {/* <FAQ></FAQ> */}
         {/* <Footer></Footer> */}

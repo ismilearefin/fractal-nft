@@ -17,21 +17,44 @@
   top: -10%;
   margin-left: 35px;
 }
-.rotateH1RoadMap {
+/* .rotateH1RoadMap {
   position: absolute;
   top: 15px;
   right: 310px;
-}
+} */
 
 .hero5 {
+  position: absolute;
   top: -12%;
   right: -25%;
 }
 .smallCircleRoadMap {
+  position: absolute;
   top: 18%;
   left: 17%;
   border: 1px solid #fff;
   height: 65%;
   border-radius: 50%;
   min-width: 65%;
+}
+
+@media screen and (max-width:450px ){
+  .RoadMapBox {
+    padding: 10px 10px;
+  }
+  .largeCircleRoadMap {
+    
+    border: 1px solid #fff;
+    min-height: 100%;
+    border-radius: 50%;
+    width: 90%
+  }
+  .hero5 {
+    position: relative;
+    width: 90%;
+    top:10%;
+    right:-5%;
+  }
+  
+  
 }
