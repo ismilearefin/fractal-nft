@@ -7,7 +7,7 @@ import BackStory from "./components/BackStory/BackStory";
 import RoadMap from "./components/RoadMap/RoadMap";
 import TeamSection from "./components/Team/TeamSection";
 import FAQ from "./components/FAQ/FAQ";
-// import Footer from "./components/Footer/Footer";
+import Footer from "./components/Footer/Footer";
 
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
         <RoadMap> </RoadMap>
         <TeamSection></TeamSection>
         <FAQ></FAQ>
-        {/* <Footer></Footer> */}
+        <Footer></Footer>
       </div>
       </div>
     </div>

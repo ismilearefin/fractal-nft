@@ -21,3 +21,32 @@
 .FootericonBox{
     gap: 10px;
 }
+
+@media screen and (max-width:450px ){
+    .FooterMainBox{
+        padding: 50px 10px;
+    }
+    .footerCard1{
+
+        width: 100%;
+        padding-bottom: 2px;
+        padding-top: 5px;
+        padding-left: 15px;
+        border-left:2px dotted #fff
+    }
+    .footerCard2{
+        width: 100%;
+        padding-bottom: 2px;
+        padding-top: 5px;
+        padding-left: 15px;
+        border-left:2px dotted #fff;
+        text-transform: uppercase;
+    }
+    .bottomFooter{
+        padding: 5px;
+    }
+    .FootericonBox{
+        gap: 5px;
+        padding-bottom: 15px;
+    }
+  }
