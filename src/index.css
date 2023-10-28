@@ -20,3 +20,19 @@ font-weight: 500;
 line-height: normal;
 text-transform: uppercase;
 }
+
+@media screen and (max-width:1536px){
+  
+}
+@media screen and (max-width:1280px){
+  
+}
+@media screen and (max-width:1024px){
+  
+}
+@media screen and (max-width:768px){
+  
+}
+@media screen and (max-width:640px){
+  
+}
