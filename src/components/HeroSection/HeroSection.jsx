@@ -6,7 +6,7 @@ import { BiLogoTelegram } from 'react-icons/bi';
 
 export default function HeroSection() {
   return (
-    <div className="text-white row justify-content-center border-bottom">
+    <div className="text-white d-block h-100 h-md-auto d-md-flex  justify-content-center  border-bottom">
         <div className="col d-flex justify-content-end ">
             <div className="textBox ">
                 <h1>1000 Unique Fractals are<br/> ready to launch</h1>

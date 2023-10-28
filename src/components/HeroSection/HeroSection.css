@@ -31,7 +31,7 @@
 
 .backGroundShadow{
     top: 396px;
-    /* left:70px; */
+    
 }
 
 .heroImg1{
@@ -42,3 +42,50 @@
     top: 56px;
     left: 200px;
 }
+
+
+@media screen and (max-width:450px ){
+    .textBox{
+        width: 100%;
+        text-align:start;
+        margin-top: 30px;
+        padding: 0px 20px;
+    }
+    .imageBox{
+        width: 100%;
+       
+        background: linear-gradient(180deg, rgba(0, 102, 255, 0.00) 0%, rgba(0, 102, 255, 0.50) 100%);
+    }
+    .textBox>div{
+        padding-bottom:5px;
+    }
+    .textBox > h1{
+        padding-bottom: 10px;
+    }
+    .textBox > p{
+        font-size: 25px;
+        font-style: normal;    
+        font-weight: 700;
+        line-height: normal;
+        padding-bottom: 15px;
+        text-transform: uppercase;
+    }
+    .heroImg1{
+        width: 85%;
+        top: 38px;
+        left: -70px;
+        display: none;
+    }
+    .heroImg2{
+        display: none;
+        width: 50%;
+        top: 56px;
+        left: 200px;
+    }
+    .backGroundShadow{
+        top: 96px;
+        opacity: 0.5;
+        display: none;
+        
+    }
+  }
