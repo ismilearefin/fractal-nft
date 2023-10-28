@@ -21,3 +21,29 @@
     flex-wrap: wrap;
     
 }
+
+@media screen and (max-width:450px ){
+    .FAQmainDiv{
+        padding-top: 20px;
+    }
+    .FAQ{
+        padding: 10px 5px 5px 5px;
+    }
+    .FAQSection{
+        padding: 10px 10px;
+        
+    }
+    .FAQSectionFlexBox{
+        padding-top: 10px;
+        gap: 10px;
+        flex-wrap: wrap;
+        
+    }
+    .buttonText,p {
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+      
+      }
+  }

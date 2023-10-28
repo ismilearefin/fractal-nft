@@ -90,19 +90,14 @@ export default function RoadMap() {
         </div>
 
 {/* Image section for mobile device */}
-<div className="py-3 py-sm-0 largeCircleRoadMap d-block d-sm-none position-relative  justify-content-center align-items-center overflow-hidden mx-auto">
-          <img
-            src={Group9}
-            alt="Fractal RoadMap"
-            className="TextImage d-none"
-          ></img>
-          <img src={Fractals5} alt="hero5" className="z-1  hero5"></img>
+<div className="py-3 py-sm-0 largeCircleRoadMap d-block d-sm-none   justify-content-center align-items-center overflow-hidden mx-auto">
+          <img src={Fractals5} alt="hero5" className="hero5"></img>
         </div>
 
         <div className="d-block d-sm-none my-sm-5 py-3 py-sm-0">
           <h2>FUTURE I I I</h2>
           <p>
-            <OrderListIcon /> BUILD MEMECOIN AND AIRDROP IT TO ALL HOLDERS
+            <OrderListIcon /> BUILD MEMECOIN AND AIRDROP IT TO<br/> ALL HOLDERS
           </p>
         </div>
 

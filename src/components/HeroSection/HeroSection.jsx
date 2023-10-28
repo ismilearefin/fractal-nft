@@ -11,7 +11,7 @@ export default function HeroSection() {
             <div className="textBox ">
                 <h1>1000 Unique Fractals are<br/> ready to launch</h1>
                 <p>Manipulation Of The Physical</p>
-                <div>
+                <div className='w-auto'>
                 {/* buttonFill,iconFill,icon */}
                 {/* we have to give a Icon color as Props */}
                     <CustomButton buttonFill={'#3B629C'} iconFill={'white'} icon={<BiLogoTelegram className='iconColor'/>} text={'Join Telegram'} ></CustomButton>
