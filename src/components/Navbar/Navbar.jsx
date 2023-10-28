@@ -58,7 +58,7 @@ export default function Navbar() {
             </div>
           </div>
         </div>
-        <div className="col-sm-4 d-flex justify-content-start align-self-center">
+        <div className="col-sm-4 d-flex justify-content-start align-self-center NavbarIconBox">
           <IconComponent fill={"black"} icon={<GiSailboat />}></IconComponent>
           <IconComponent
             fill={"black"}

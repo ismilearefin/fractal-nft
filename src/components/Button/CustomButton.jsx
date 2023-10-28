@@ -3,7 +3,7 @@ import "../Button/CustomButton.css";
 import buttonBoxBorder from "../../../public/buttonBoxBorder.svg";
 import IconComponent from "../IconComponent/IconComponent";
 
-export default function CustomButton({ buttonFill, iconFill, icon }) {
+export default function CustomButton({ buttonFill, iconFill, icon,text }) {
   return (
     <div className="position-relative ms-2 ">
       <svg
@@ -24,7 +24,7 @@ export default function CustomButton({ buttonFill, iconFill, icon }) {
       <div className="buttonIcon d-flex position-absolute">
         {/* We have to put Icon color with our icon by className*/}
         <IconComponent fill={iconFill} icon={icon}></IconComponent>
-        <p>Join Telegram</p>
+        <p>{text}</p>
       </div>
     </div>
   );

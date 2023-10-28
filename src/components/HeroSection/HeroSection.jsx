@@ -14,7 +14,7 @@ export default function HeroSection() {
                 <div>
                 {/* buttonFill,iconFill,icon */}
                 {/* we have to give a Icon color as Props */}
-                    <CustomButton buttonFill={'#3B629C'} iconFill={'white'} icon={<BiLogoTelegram className='iconColor'/>}></CustomButton>
+                    <CustomButton buttonFill={'#3B629C'} iconFill={'white'} icon={<BiLogoTelegram className='iconColor'/>} text={'Join Telegram'} ></CustomButton>
                 </div>
             </div>
         </div>

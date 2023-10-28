@@ -1,0 +1,23 @@
+.FooterMainBox{
+    padding: 50px 180px;
+}
+
+.footerCard1{
+    padding-bottom: 20px;
+    padding-top: 50px;
+    padding-left: 80px;
+    border-right:2px dotted #fff
+}
+.footerCard2{
+    padding-bottom: 20px;
+    padding-top: 50px;
+    padding-left: 80px;
+    border-left:2px dotted #fff;
+    text-transform: uppercase;
+}
+.bottomFooter{
+    border: 2px dotted #fff;
+}
+.FootericonBox{
+    gap: 10px;
+}
