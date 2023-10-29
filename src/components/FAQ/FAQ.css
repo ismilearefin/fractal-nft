@@ -1,5 +1,7 @@
 .FAQ{
-    padding: 100px 50px 50px 50px;
+    /* padding: 100px 50px 50px 50px; */
+    padding-top: 100px ;
+    padding-bottom: 10px ;
 }
 .buttonText,p {
   font-size: 18px;
@@ -16,10 +18,13 @@
     
 }
 
+.rotateIcon{
+    transform: rotate(45deg);
+}
 .FAQSectionFlexBox{
-    gap: 60px;
-    flex-wrap: wrap;
     
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 @media screen and (max-width:450px ){
@@ -27,10 +32,10 @@
         padding-top: 20px;
     }
     .FAQ{
-        padding: 10px 5px 5px 5px;
+        padding: 10px ;
     }
     .FAQSection{
-        padding: 10px 10px;
+        padding: 10px;
         
     }
     .FAQSectionFlexBox{
