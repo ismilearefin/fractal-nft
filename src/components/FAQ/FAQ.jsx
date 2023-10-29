@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "../.../../FAQ/FAQ.css";
 
-const FAQ = () => {
+export default function FAQ () {
   const [activeIndex, setActiveIndex] = useState(null);
 
   const handleToggle = (index) => {
@@ -88,6 +88,6 @@ const FAQ = () => {
       </div>
     </div>
   );
-};
+}
 
-export default FAQ;
+
