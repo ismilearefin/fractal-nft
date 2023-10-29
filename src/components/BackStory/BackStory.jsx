@@ -1,6 +1,6 @@
 import "../BackStory/BackStory.css";
-import Fractals2 from "../../../public/Fractals2.svg";
-import Group5 from "../../../public/Group5.svg";
+import Fractals2 from "/Fractals2.svg";
+import Group5 from "/Group5.svg";
 
 export default function BackStory() {
   return (

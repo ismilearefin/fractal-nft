@@ -1,6 +1,6 @@
 import "../Navbar/navbar.css";
-import logo from "../../../public/Logo.svg";
-import hoverEffect from "../../../public/menuHoverEffect.svg";
+import logo from "/Logo.svg";
+import hoverEffect from "/menuHoverEffect.svg";
 import IconComponent from "../IconComponent/IconComponent";
 import { BiLogoFacebook, BiLogoTelegram, BiLogoTwitter } from "react-icons/bi";
 import { GiSailboat, GiHamburgerMenu } from "react-icons/gi";
@@ -34,9 +34,9 @@ export default function Navbar() {
   const [isClick, setIsClick] = useState(false);
 
   return (
-    <nav className="border border-light border-1 text-white customPadding">
+    <nav className="border border-light border-1 text-white customPadding position-relative">
       <div className="d-none d-sm-flex ">
-        <div className="col-8">
+        <div className="col-sm-8">
           <div className="row border-end position-relative">
             <div className="col-xl-2 col-4">
               <img
@@ -96,7 +96,7 @@ export default function Navbar() {
 
         {/* After click Hamburger */}
         {isClick && (
-          <div className="w-100 border text-center p-3 mt-3 bg-black ">
+          <div className=" border text-center p-3 mt-3 bg-black position-absolute z-1 hamburgerDiv">
             <div className="py-4">
               <img
                 src={logo}

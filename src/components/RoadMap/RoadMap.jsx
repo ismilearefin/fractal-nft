@@ -1,7 +1,7 @@
 import "../RoadMap/RoadMap.css";
 import OrderListIcon from "./OrderListIcon";
-import Fractals5 from "../../../public/Fractals5.svg";
-import Group9 from "../../../public/Group9.svg";
+import Fractals5 from "/Fractals5.svg";
+import Group9 from "/Group9.svg";
 
 export default function RoadMap() {
   return (

@@ -3,6 +3,8 @@
   margin: 0px;
   padding: 0px;
 }
+
+
 h1{
   color: white;
   font-size: 65px;
@@ -30,7 +32,9 @@ text-transform: uppercase;
     line-height: normal;
     text-transform: uppercase;
   }
-  
+  body{
+    overflow-x: hidden;
+  }
   
   h2{
     font-size: 24px;

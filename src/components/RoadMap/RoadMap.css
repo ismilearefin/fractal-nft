@@ -51,7 +51,7 @@
   }
   .hero5 {
     position: relative;
-    width: 100%;
+    max-width: 100%;
     bottom:20%;
     right:0%;
   }

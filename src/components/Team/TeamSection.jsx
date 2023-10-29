@@ -1,6 +1,6 @@
 import '../Team/TeamSection.css';
-import founder from '../../../public/founder.svg';
-import coFounder from '../../../public/coFounder.svg';
+import founder from '/founder.svg';
+import coFounder from '/coFounder.svg';
 
 export default function TeamSection() {
   return (

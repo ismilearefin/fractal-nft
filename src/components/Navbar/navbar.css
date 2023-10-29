@@ -107,6 +107,11 @@
 } */
 
 @media screen and (max-width:450px ){
+  .hamburgerDiv{
+    width: 80%;
+    top: -15px;
+    left: 0px;
+  }
   .customPadding {
     padding: 10px 20px;
   }

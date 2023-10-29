@@ -1,5 +1,5 @@
 import '../Footer/Footer.css';
-import Logo from '../../../public/Logo.svg';
+import Logo from '/Logo.svg';
 import CustomButton from '../Button/CustomButton';
 import { BiLogoFacebook, BiLogoTelegram, BiLogoTwitter } from "react-icons/bi";
 import { GiSailboat } from "react-icons/gi";

@@ -1,6 +1,6 @@
 import '../HeroSection/HeroSection.css'
-import fractal1 from "../../../public/Fractals1.svg";
-import fractal4 from "../../../public/Fractals4.svg";
+import fractal1 from "/Fractals1.svg";
+import fractal4 from "/Fractals4.svg";
 import CustomButton from '../Button/CustomButton';
 import { BiLogoTelegram } from 'react-icons/bi';
 
