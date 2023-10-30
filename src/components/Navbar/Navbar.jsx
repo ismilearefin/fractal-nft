@@ -96,7 +96,7 @@ export default function Navbar() {
 
         {/* After click Hamburger */}
         {isClick && (
-          <div className=" border text-center p-3 mt-3 bg-black position-absolute z-1 hamburgerDiv">
+          <div className=" border text-center p-3 mt-3 bg-black position-absolute z-1 hamburgerDiv ">
             <div className="py-4">
               <img
                 src={logo}

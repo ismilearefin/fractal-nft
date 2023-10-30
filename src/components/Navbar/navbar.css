@@ -107,10 +107,23 @@
 } */
 
 @media screen and (max-width:450px ){
+  
+  @keyframes hamburgerSlide {
+    from {
+      transform: translateX(-200px);
+    }
+    to{
+      transform:  translateX(0px);
+    }
+  }
+  
+
   .hamburgerDiv{
     width: 80%;
     top: -15px;
     left: 0px;
+    animation: hamburgerSlide 0.5s ease 0s 1;
+    /* transform: translateX(-150px); */
   }
   .customPadding {
     padding: 10px 20px;
@@ -136,4 +149,5 @@
   .text-container:hover .backgroundImg {
     opacity: 1;
   }
+ 
 }

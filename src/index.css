@@ -4,7 +4,9 @@
   padding: 0px;
 }
 
-
+html {
+  scroll-behavior: smooth;
+}
 h1{
   color: white;
   font-size: 65px;
